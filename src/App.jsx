@@ -7,8 +7,10 @@ const App = () => {
   return (
     <div className="card">
       <Header />
-      <Body />
-      <AddToCart />
+      <div className="responsive">
+        <Body />
+        <AddToCart />
+      </div>
     </div>
   );
 };
